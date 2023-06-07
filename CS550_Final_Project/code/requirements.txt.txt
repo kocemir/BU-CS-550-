@@ -1,0 +1,13 @@
+tensorflow==1.1x
+python 3.6>
+
+This code can be run on linux.
+To recreate the synthetic experiments run synthetic_signal_test.py after adjusting the hyperparameters as described in the paper. The results may be plotted by using synthetic_signal_plot.py after adjusting the log file path in that file.
+
+Commands:
+python3 synthetic_signal_test.py
+python3 synthetic-signal_plot.py
+
+Dataset:
+
+You can change experiment data by changing the data file name in run_experiments.py . All model parameters are loaded into log file.
